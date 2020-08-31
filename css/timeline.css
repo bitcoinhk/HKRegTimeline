@@ -1011,8 +1011,9 @@
 /* TL.TimeNav
 ================================================== */
 .tl-timenav {
-  width: 100%;
-  background-color: #f2f2f2;
+    width: 100%;
+    background-color: steelblue;
+/*  background-color: #f2f2f2; */
   position: relative;
   overflow: hidden;
   border-top: 1px solid #e5e5e5;
@@ -1381,6 +1382,7 @@
   font-size: 16px;
 }
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content.tl-timemarker-content-small .tl-timemarker-text h2.tl-headline {
+    color: #FFF;
   display: block;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -1465,7 +1467,7 @@
   background-color: #000;
 }
 .tl-timemarker.tl-timemarker-active .tl-timemarker-timespan {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255,255,255, 0.5);
   z-index: 8;
 }
 .tl-timemarker.tl-timemarker-active .tl-timemarker-timespan .tl-timemarker-timespan-content {
@@ -1483,7 +1485,8 @@
   background-color: #333;
 }
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
-  background-color: #FFF;
+    background-color: aliceblue;
+    /*  background-color: #FFF;*/
   color: #333;
   z-index: 9;
   border-color: rgba(51, 51, 51, 0.5);
@@ -1720,7 +1723,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #f2f2f2;
+  /*  background-color: #f2f2f2;*/
+  background-color: #eee;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
