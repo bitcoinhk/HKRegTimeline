@@ -1324,7 +1324,8 @@
   line-height: 12px;
   height: 100%;
   overflow: hidden;
-  font-weight: normal;
+  font-weight: bold;
+/*  font-weight: normal; */
   margin: 0;
   color: #bfbfbf;
   position: relative;
@@ -1485,8 +1486,7 @@
   background-color: #333;
 }
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
-    background-color: aliceblue;
-    /*  background-color: #FFF;*/
+  background-color: #FFF;
   color: #333;
   z-index: 9;
   border-color: rgba(51, 51, 51, 0.5);

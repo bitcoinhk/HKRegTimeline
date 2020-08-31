@@ -130,6 +130,16 @@
             setPageLanguage();
 
             var options = optionsFromUrlParams();
+            options.debug = false;
+            options.initial_zoom = 3;
+            options.hash_bookmark = false;
+            options.marker_height_min = 50;
+            options.marker_width_min = 200;
+            options.start_at_slide = 0;
+            options.optimal_tick_width = 200;
+            options.duration = 1000;
+            options.is_embed = true;
+
             createEmbedDiv('timeline-embed', options.width, options.height);
             // Google Analytics: ga_property_id is not something we let users override
             // options.ga_property_id = 'UA-27829802-4';
