@@ -1012,8 +1012,9 @@
 ================================================== */
 .tl-timenav {
     width: 100%;
-    background-color: steelblue;
-/*  background-color: #f2f2f2; */
+   /* background-color: steelblue; */
+  /*  background-color: #f2f2f2; */
+  background-color: grey;
   position: relative;
   overflow: hidden;
   border-top: 1px solid #e5e5e5;
@@ -1493,7 +1494,9 @@
   box-shadow: 1px 1px 3px rgba(145, 145, 145, 0.5);
 }
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
-  color: #333;
+  /*color: #333;*/
+  color: red;
+
 }
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline.tl-headline-fadeout:after {
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #FFF 80%);
